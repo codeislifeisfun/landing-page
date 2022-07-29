@@ -1,0 +1,23 @@
+.hero, 
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.layer1,
+.layer2 {
+    display: flex;
+    flex: 1;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.extra-big { 
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
