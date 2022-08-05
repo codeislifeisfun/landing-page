@@ -27,6 +27,20 @@ body {
     padding-bottom: 75px;
 }
 
+.headerImage {
+    width: 900px;
+    height: 240px;
+    display: flex;
+    background-color: grey;
+}
+
+.headerImage > img {
+    padding-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .header-links {
     display: flex;
     font-size: small;
@@ -61,17 +75,68 @@ button {
     padding: 5px 20px;
 }
 
-.layer2 > img {
-    background-color: gray;
-    text-align: center;
-    position: relative;
-    vertical-align: calc(100%/2);    
+/* TEAM PART */ 
+.team {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 75px;    
 }
 
-.layer2 img { width: 900px;}
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    padding: 15px;
+}
+
+.details {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.subtext div {
+    display: flex;
+}
+
+.subtext img {
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+    height: 180px;
+    flex: 1;
+}
 
 
 
+/* QUOTE */
+.quote {
+    padding: 80px 150px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
 
+/* ACTION */
+.sign-up {
+    padding: 80px 150px;
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+}
 
+.sign-up .action{
+    flex: 3;
+}
 
+.sign-up .button {
+    flex: 1;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sign-up button {
+    border: 2px solid white;
+}
